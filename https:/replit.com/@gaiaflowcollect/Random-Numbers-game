@@ -1,0 +1,29 @@
+import random
+print(random.randint(1,6))
+#random.random is a float random
+#random.randint is for integers
+answer=random.randint(1,6)
+
+if answer == 1:
+  print ("You will be a star")
+
+if answer==2:
+  print("Your mother is a monkey's uncle.")
+if answer==3:
+  print("Today is your lucky day.")
+if answer==4:
+  print("You're going to meet someone special very soon.")
+if answer==5:
+  print("Things will start looking up after you eat Chinese food today.")
+if answer==6:
+  print("Something wonderful this way comes...")
+
+answer=random.randint(1,6)
+if answer ==1:
+  print ("Yes.")
+
+if answer ==2:
+  print ("No")
+
+if answer == 3:
+  print("Maybe.")
